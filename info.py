@@ -13,10 +13,10 @@ def is_enabled(value, default):
         return default
 
 # Bot information
-SESSION = environ.get('SESSION', 'autodelete')
+SESSION = environ.get('SESSION', 'mediasearch')
 API_ID = int(environ.get("API_ID", "21419016"))
 API_HASH = environ.get("API_HASH", "79198e1eb4cfd0f771a89d83b9144e7e")
-BOT_TOKEN = environ.get("BOT_TOKEN", "8195734162:AAEDqrvuIgVqnPqEJ4yiDcwtMUW9K8lM3mQ")
+BOT_TOKEN = environ.get("BOT_TOKEN", "8574102205:AAH-2auQLqWVz4oUkJikFPKiOjjDc-I0dFY")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -53,9 +53,9 @@ pyroutils.MIN_CHAT_ID = -999999999999
 pyroutils.MIN_CHANNEL_ID = -100999999999999
 
 # Others
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', "-1003259271720"))
-DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1002354592029').split()]
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'mcumovies')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', "-1003132292615"))
+DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1003259271720').split()]
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'mazhavilBots')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)

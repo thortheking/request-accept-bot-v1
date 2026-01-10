@@ -5,7 +5,7 @@ Here You Can Request Movie's, Just Sent <a href='http://t.me/MovieXrequest1Bot'>
 
 Fᴏʀ Mᴏʀᴇ Dᴇᴛᴀɪʟꜱ Cʟɪᴄᴋ /help
 
-Cᴏɴᴛᴀᴄᴛ Bᴏᴛ Dᴇᴠᴇʟᴏᴘᴇʀ (Oʀ) Rᴇᴘᴏʀᴛ Bᴜɢꜱ..!! 👉 @MAZHAVILADMINBOT</b>"""
+Cᴏɴᴛᴀᴄᴛ Bᴏᴛ Dᴇᴠᴇʟᴏᴘᴇʀ (Oʀ) Rᴇᴘᴏʀᴛ Bᴜɢꜱ..!! 👉 @KCUxADMINBOT</b>"""
 
     STATUS_TXT = """★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
 ★ 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code>
@@ -45,7 +45,8 @@ Fɪʟᴇɴᴀᴍᴇ : {file_name}
 FɪʟᴇSɪᴢᴇ : {file_size}
 
 ╔═══ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ═══╗ 
-➲ <a href='https://t.me/+cPTTR6VCYkIxMWY1'>@OTT UPDTES</a>
-➲ <a href='https://t.me/+nNYtDOOW1kwxYjg1'>@MAIN CHANNEL</a>
+➲ <a href='https://t.me/+cPTTR6VCYkIxMWY1'>OTTUpdates1TG</a>
+➲ <a href='https://t.me/+nNYtDOOW1kwxYjg1'>BotUpdateChannel</a>
+➲ <a href='https://t.me/+zwitFEYx9cUyMGQ1'>LatestMovieRelease</a>
 ╚═══ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ═══╝
 </b>"""

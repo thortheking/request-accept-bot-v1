@@ -600,7 +600,7 @@ async def auto_filter(client, msg, spoll=False):
     if not spoll:
         message = msg
         settings = await get_settings(message.chat.id)
-        if message.text.startswith("/"): return  # ignore commands
+        if message.text.startswith("r"): return  # ignore commands
         if re.findall("((^\/|^,|^!|^\.|^[\U0001F600-\U000E007F]).*)", message.text):
             return
         if 2 < len(message.text) < 100:
@@ -710,25 +710,19 @@ async def auto_filter(client, msg, spoll=False):
         try:
             mat = await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
                                       reply_markup=InlineKeyboardMarkup(btn))
-           # await message.delete()
-        except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
-            pic = imdb.get('poster')
-            poster = pic.replace('.jpg', "._V1_UX360.jpg")
-            await message.reply_photo(photo=poster, caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
-            
-          #  await message.delete()
+            await asyncio.sleep(300)
+            await delau.delete()#del msg auto 10min filter
         except Exception as e:
             logger.exception(e)
-            await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
-            
-          #  await message.delete()
+            audel = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
+            await asyncio.sleep(300)
+            await audel.delete()#del msg auto 10min filter
     else:
-        await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
-        
-       # await message.delete()
-   # if spoll:
-      #  await msg.message.delete()
-
+        autodel = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
+        await asyncio.sleep(300)
+        await autodel.delete()#del msg auto 10min filter
+    if spoll:
+        await msg.message.delete()
 
 
 async def advantage_spell_chok(msg):

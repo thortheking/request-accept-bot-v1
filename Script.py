@@ -41,8 +41,8 @@ Name - {}
 """
     CUSTOM_FILE_CAPTION = """<b>𝐻𝑒𝑙𝑙𝑜 👋 {mention} 😍
     
-Fɪʟᴇɴᴀᴍᴇ : {file_name}
-FɪʟᴇSɪᴢᴇ : {file_size}
+📂Fɪʟᴇɴᴀᴍᴇ : {file_name} @KCUxOTT
+⌛FɪʟᴇSɪᴢᴇ : {file_size}
 
 ╔═══ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ═══╗ 
 ➲ <a href='https://t.me/+cPTTR6VCYkIxMWY1'>OTTUpdates1TG</a>
